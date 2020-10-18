@@ -1,0 +1,89 @@
+ <html>
+    <head >
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+    Verificare</title>
+        <link rel="stylesheet" href="verificare.css">
+       
+    </head>
+    <body class="corp">
+        
+    <ul class="meniu">
+        <li><a href="cauze.html">Europa antebelică</a>
+            
+        </li>
+        <li><a href="file:///D:/lucr%C4%83ri/Proiect%20istorie/Acasa.html#">Prezenatare</a>
+             <ul class="content">
+                 <li><a href="batalii.html">Bătălii</a></li>
+                 <li><a href="personalitati.html">Personalități</a></li>
+                 <li><a href="evenimente.html">Evenimente</a></li>
+            </ul>
+        </li>
+        <li><div class="ceva">Urmări</div>
+            <ul class="content"> 
+             <li><a href="state_noi.html">Noi state</a></li>
+                <li><a href="Marea%20Unire.html">Marea Unire</a></li>
+             <li><a href="oameni_si_curente_politice_noi.html">Oameni și idei noi</a></li>
+            </ul>
+        </li>
+        <li><a href="verificare.html">Verificare</a></li>
+         <li><a href="bibliografie.html">Bibliografie</a></li>
+         </ul>
+        <div class="bg"></div>
+        <div class="quiz"><form name="myform">
+            Cine a semnat pacea separată de la București?<br>
+            <input type="radio" name="q1" value="a">Alexandru Marghiloman<br>
+            <input type="radio" name="q1" value="b"> Ion I. C. Brătianu<br>
+            <input type="radio" name="q1" value="c">Petre P. Carp<br>
+            <input type="radio" name="q1" value="d">Alexandru Averescu<br>
+            În ce an a început Primul Război Mondial?<br>
+            <input type="radio" name="q2" value="a">1915<br>
+            <input type="radio" name="q2" value="b">1911<br>
+            <input type="radio" name="q2" value="c">1914<br>
+            <input type="radio" name="q2" value="d">1913<br>
+           Ce bătălie a marcat sfârșitul ofensivei germane din 1914<br>
+            <input type="radio" name="q3" value="a">Marna<br>
+            <input type="radio" name="q3" value="b">Somme<br>
+            <input type="radio" name="q3" value="c">Verdun<br>
+            <input type="radio" name="q3" value="d">Tanenberg<br>
+            În ce an moare împăratul Franz Iosef?<br>
+            <input type="radio" name="q4" value="a">1915<br>
+            <input type="radio" name="q4" value="b">1916<br>
+            <input type="radio" name="q4" value="c">1913<br>
+            <input type="radio" name="q4" value="d">1914<br>
+            Cine a fost asasinat la Sarajevo ? <br>
+            <input type="radio" name="q5" value="a">Franz Josef<br>
+            <input type="radio" name="q5" value="b">Franz Ferdinand<br>
+            <input type="radio" name="q5" value="c">Eremia Grigorescu<br>
+            <input type="radio" name="q5" value="d">Nicolae al II-lea<br>
+            Cine este arhitectul campaniei din Gallipoli?<br>
+            <input type="radio" name="q6" value="a">Winston Churchill<br>
+            <input type="radio" name="q6" value="b">Woodrow Wilson<br>
+            <input type="radio" name="q6" value="c">Sir Douglas Haig<br>
+            <input type="radio" name="q6" value="d">Paul von Hindemburg<br>
+            <input type="button" value="submit" onclick="check()">
+            </form></div>
+            <script>
+        function check(){
+            var q1=document.myform.q1.value;
+            var q2=document.myform.q2.value;
+            var q3=document.myform.q3.value;
+            var q4=document.myform.q4.value;
+            var q5=document.myform.q5.value;
+            var q6=document.myform.q6.value;
+            var count=0;
+            if(q1=="a"){
+                count++;  
+            }
+            if(q2=="c"){ count++;}
+            if(q3=="a"){count++;}
+            if(q4=="b"){count++;}
+            if(q5=="b"){cout++;}
+            if(q6=="a"){cout++;}
+            alert("you got "+count+" marks");
+        }
+        </script>
+            
+    </body>
+</html>
+
